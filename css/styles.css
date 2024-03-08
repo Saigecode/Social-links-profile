@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h6{
+    color: hsl(75, 94%, 57%);
+}
+
+
+.container{
+    max-width: 360px;
+    margin: 0 auto;
+}
+.wrapper{
+    background-color: hsl(0, 0%, 8%);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+.head{
+    padding:10px 30px;
+}
+.img-container img{
+    border-radius: 100%;
+    width: 25%;
+    margin: 15px;
+}
+
+.text-container{
+    margin-bottom: 1rem;
+}
+
+.text-container h4,h6{
+    font-weight: 600;
+    margin: .5rem;
+}
+
+.paragraph{
+    font-size: 14px;
+}
+
+.links-container{
+    border: 0 solid hsl(0, 0%, 20%);
+    margin: 10px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    font-size: 10px;
+    padding: 15px 0;
+}
+
+.links-container:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+a:hover{
+    font-weight: 700;
+}
+
+
+.attribution {
+    margin-top: 3rem;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
